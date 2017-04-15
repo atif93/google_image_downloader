@@ -6,8 +6,8 @@ import urllib2
 import sys
 import time
 
-geckodriver_path = "/Users/atif/Downloads/Backup/Stud/MS/Sem2/DLforCV/Project"
-os.environ["PATH"] += os.pathsep + geckodriver_path
+# adding path to geckodriver to the OS environment variable
+os.environ["PATH"] += os.pathsep + os.getcwd()
 download_path = "dataset/"
 
 def main():
