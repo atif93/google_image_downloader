@@ -42,7 +42,8 @@ def main():
 			print "Less images found:", e
 			break
 
-	imges = driver.find_elements_by_xpath("//div[@class='rg_meta']")
+	# imges = driver.find_elements_by_xpath('//div[@class="rg_meta"]') # not working anymore
+	imges = driver.find_elements_by_xpath('//div[contains(@class,"rg_meta")]')
 	print "Total images:", len(imges), "\n"
 	for img in imges:
 		img_count += 1
