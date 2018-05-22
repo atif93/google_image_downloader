@@ -20,9 +20,12 @@ d) Add the driver to the path for other tools to use it
 
 ### Download any number of images from Google image search.
 
-- run as 
+- run as (Use 2/3 according to python version)
+*Python 2*
+`python image_download_python2.py <query> <number of images>`
 
-`python image_download.py <query> <number of images>`
+*Python 3*
+`python image_download_python3.py <query> <number of images>`
 
 where:
 
