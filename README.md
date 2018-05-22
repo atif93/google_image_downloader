@@ -3,13 +3,13 @@
 1. Selenium
 Install as `pip install selenium`
 2. Geckodriver
-a) Download latest release
+- Download latest release
 `wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz`
-b) Extract the file
+- Extract the file
 `tar -xvzf geckodriver*`
-c) Make it executable
+- Make it executable
 `chmod +x geckodriver`
-d) Add the driver to the path for other tools to use it
+- Add the driver to the path for other tools to use it
 `export PATH=$PATH:/path-to-extracted-file/geckodriver`
 
 
@@ -21,10 +21,10 @@ d) Add the driver to the path for other tools to use it
 ### Download any number of images from Google image search.
 
 - run as (Use 2/3 according to python version)
-*Python 2*
+-**Python 2**
 `python image_download_python2.py <query> <number of images>`
 
-*Python 3*
+-**Python 3**
 `python image_download_python3.py <query> <number of images>`
 
 where:
